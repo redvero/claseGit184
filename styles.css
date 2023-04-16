@@ -1,0 +1,227 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;700&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Comfortaa', cursive;
+}
+
+
+body {
+    background-image: url(./imagenes/musico-tocando.jpg);
+    background-repeat: repeat;
+    background-position: center;
+    height: auto;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.poster {
+    padding-left: 40px;
+    margin-bottom: 260px;
+    border-radius: 10px;
+
+
+
+}
+
+.equipo {
+    color: #e9ecef;
+
+}
+
+.logo {
+
+    justify-content: center;
+    margin: 20px;
+
+
+}
+
+
+.navbar {
+    padding: 2rem;
+    background-color: transparent;
+
+}
+
+.nav-link {
+    font-family: 'Comfortaa', cursive;
+    font-size: 17px;
+    color: white;
+    justify-content: center;
+}
+
+.dropdown-menu {
+    font-family: 'Comfortaa', cursive;
+    font-size: 17px;
+    color: white;
+    background-color: transparent;
+    border-color: transparent;
+
+}
+
+
+.collapse-navbar-collapse {
+    font-family: 'Comfortaa', cursive;
+    font-size: 17px;
+    color: white;
+}
+
+.navbar-toggler {
+    color: white;
+
+
+}
+
+.navbar-collapse {
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.nav-link.active {
+    color: white;
+    background-color: transparent;
+
+}
+
+.contacto {
+    color: white;
+    font-size: 17px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.contacto:hover {
+    color: orangered
+}
+
+.btn {
+    background-color: orangered;
+    color: white;
+    border-color: transparent;
+}
+
+.btn:hover {
+    background-color: black;
+}
+
+.d-block-w-100 {
+    font-family: 'Comfortaa', cursive;
+    color: orangered;
+}
+
+
+.fender {
+
+    background-image: url(./imagenes/musico-tocando.jpg);
+    background-repeat: repeat;
+    background-position: center;
+    height: 1200px;
+    background-attachment: fixed;
+    background-size: cover
+}
+
+.imgnormalizada img {
+    width: auto;
+    height: 500px;
+    max-height: 500px;
+    border-radius: 20px;
+}
+
+.carousel-inner {
+    font-family: 'Comfortaa', cursive;
+    font-size: 25px;
+}
+
+.encabezados {
+    font-family: 'Comfortaa', cursive;
+
+}
+
+.article {
+    display: inline-block;
+    width: 33%;
+    vertical-align: top;
+    padding: 20px;
+    box-sizing: border-box;
+    color: white;
+}
+
+
+
+.article img {
+    width: 100%;
+
+}
+
+.feria img {
+    height: auto;
+    justify-content: center;
+}
+
+.articulos {
+    padding: 20px;
+    background-color: black;
+    opacity: 30%;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.tira.de.instrumentos img:hover {
+    opacity: 0.5;
+
+}
+
+
+.copyright {
+    font-family: 'Comfortaa', cursive;
+    color: white;
+    margin-block: 20px;
+    margin-left: 40px;
+    font-size: 10pt;
+
+}
+
+.logo {
+    margin-top: 40px;
+    margin-left: 30px;
+}
+
+.logo-footer {
+    margin-block: 10px;
+    margin-left: 40px;
+
+}
+
+.redes-sociales {
+    margin-block: 20px;
+    margin-left: 1100px;
+}
+
+img {
+    padding-left: 10px;
+    padding-right: 10px;
+
+}
+
+.navbar-nav .nav-link.active,
+.navbar-nav .nav-link.show {
+    color: white;
+
+}
+
+.nav-link:hover {
+    color: orangered;
+}
+
+.contacto-back {
+    color: orangered;
+}

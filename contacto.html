@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--aca abajo van los METADATOS (meta) son para posicionamiento web basicamente-->
+    <meta name="description" content="Venta de Instrumentos musicales">
+    <!--esto es la descripción de nuestra web-->
+    <meta name="keywords"
+        content="Guitarra eléctrica, guitarra acústica, bajo, batería, micrófono, amplificador, casa de música, equipo de sonido">
+    <!--esto significa añadir palabras claves para los buscadores-->
+    <meta name="author" content="Megathlon">
+    <!--el nombre de la empresa-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link rel="stylesheet" href="./dist/css/bootstrap.css">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="styles2.css">
+
+    <title>Megathlon Rock House / Pedido de presupuesto</title>
+    <!--aca abajo está el favicon del sitio-->
+    <link rel="icon" href="./imagenes/favicon.png" type="image/png" sizes="512-FAV">
+
+</head>
+
+<body>
+    <header>
+
+
+        <!--ACA ESTA EL INICIO DE LA BARRA DE NAVEGACION O MENU DE LA WEB-->
+        <nav class="navbar navbar-expand-lg">
+            <div class="container-fluid">
+                <!--en esta linea abajo se cambió el icono. No es de IconScout, es propio!-->
+                <a class="navbar-brand" href="#"><img src="./imagenes/favicon logo menu.png" alt="Megathlon">
+                    <a class="logo" href="index.html"> <img src="./imagenes/megathlon2 logo.png"
+                            style="max-width: 80%; padding: 20px;"></a>
+
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <!--aca se usa flex-box-->
+                        <ul class="navbar-nav d-flex justify-content-center align-items-center">
+                            <li class="nav-item">
+                                <a class="nav-link" href="index.html">Inicio</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Sucursales</a>
+                            </li>
+
+                            <li class="nav-item dropdown" data-bs-theme="dark">
+                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                                    data-bs-toggle="dropdown" aria-expanded="true">
+                                    Productos
+                                </a>
+                                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                    <li><a class="dropdown-item" href="#">Guitarras y bajos</a></li>
+                                    <li><a class="dropdown-item" href="#">Baterías y percusión</a></li>
+                                    <li><a class="dropdown-item" href="#">Teclados y pianos</a></li>
+                                    <li><a class="dropdown-item" href="#">Amplificadores</a></li>
+
+                            </li>
+
+                        </ul>
+
+                        <li class="nav-item">
+                            <button class="nav-link active"><a class="contacto" href="./contacto.html"
+                                    target="_blank">Contacto</button>
+                </a>
+                </li>
+                </ul>
+
+                <form class="d-flex" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Buscá tu instrumento"
+                        aria-label="Buscar">
+                    <button class="btn btn-secondary" type="submit">Buscar</button>
+                </form>
+            </div>
+            </div>
+        </nav>
+        </nav>
+        <!--link a IconScout-->
+        <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css">
+
+        <!--ACA TERMINA EL MENU DE LA WEB-->
+    </header>
+
+
+    <main>
+
+        <div class="contenedor-form-back1">
+            <!-- Grid container -->
+            <div class="container p-4">
+
+                <!-- Section: Text -->
+                <section class="tit-form">
+                    <h1> Seguí en contacto con nosotros</h1>
+                    <p>
+                        Si queres recibir nuestas novedades, suscribirte a nuestro Newsletter. Gracias!
+                    </p>
+                </section>
+                <!-- Section: Text -->
+
+                <!-- Section: Form -->
+                <section class="tit-form">
+                    <form>
+                        <div class="mb-3">
+                            <label for="validationDefault01" class="form-label">Email</label>
+                            <input type="email" class="form-control" id="validationDefault01" required
+                                placeholder="name@example.com">
+                        </div>
+
+                        <div class="col-12">
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="" id="invalidCheck" required>
+                                <label class="form-check-label" for="invalidCheck">
+                                    Quiero suscribirme al Nesletter.
+                                </label>
+                                <div class="invalid-feedback">
+                                    Debe aceptar antes de solicitar.
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="d-grid gap-2 d-md-flex justify-content-md-end">
+                            <button type="submit" class="btn btn-secondary" id="next-btn">
+                                Suscribir
+                            </button>
+                        </div>
+
+            </div>
+        </div>
+        </form>
+        </section>
+
+        </div>
+
+        <br>
+
+        <div class="contenedor-form-back">
+            <!-- Grid container -->
+            <div class="container p-4">
+
+                <!-- Section: Text -->
+                <section class="tit-form">
+                    <h1> Solicitá tu presupuesto</h1>
+                    <p>
+                        Te invitamos a solicitar tu presupuesto, solo necesitamos completes tus datos a continuación. Y
+                        no te olvides de tocar "Solicitar" <br>
+                        Nos pondremos en contacto a la brevedad con vos para darte mayores datos sobre lo presupuestado.
+                        Gracias!
+                    </p>
+                </section>
+                <!-- Section: Text -->
+
+                <!-- Section: Form -->
+                <section class="tit-form">
+                    <form>
+
+                        <div class="row">
+                            <div class="col">
+                                <input type="text" class="form-control" id="validationDefault05" required
+                                    placeholder="Nombre" aria-label="First name">
+                            </div>
+                            <div class="col">
+                                <input type="text" class="form-control" id="validationDefault04" required
+                                    placeholder="Apellido" aria-label="Last name">
+                            </div>
+                        </div>
+
+                        <br>
+
+                        <div class="mb-3">
+                            <label for="validationDefault01" class="form-label">Email</label>
+                            <input type="email" class="form-control" id="validationDefault01" required
+                                placeholder="name@example.com">
+                        </div>
+
+                        <br>
+
+                        <label for="validationDefault02" class="form-label">Tipo de producto o servicio</label>
+                        <select class="form-select" aria-label="Default select example" id="validationDefault02"
+                            required>
+                            <option selected>Selecciona una categoria de producto</option>
+                            <option value="1">Guitarras y bajos</option>
+                            <option value="2">Baterias y percusión</option>
+                            <option value="3">Teclados y pianos</option>
+                            <option value="3">Amplificadores</option>
+                            <option value="3">Accesorios</option>
+                            <option value="3">Otros</option>
+                        </select>
+
+                        <br>
+
+                        <div class="mb-3">
+                            <label for="validationDefault03" class="form-label">Completá el pedido con el mayor detalle
+                                del producto o servicio a presupuestar</label>
+                            <textarea class="form-control" id="validationDefault03" required rows="3"></textarea>
+                        </div>
+
+                        <div class="col-12">
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="" id="invalidCheck" required>
+                                <label class="form-check-label" for="invalidCheck">
+                                    Acepto términos y condiciones
+                                </label>
+                                <div class="invalid-feedback">
+                                    Debe aceptar antes de solicitar.
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="d-grid gap-2 d-md-flex justify-content-md-end">
+                            <button type="submit" class="btn btn-secondary">
+                                Solicitar
+                            </button>
+                        </div>
+
+            </div>
+        </div>
+        </form>
+        </section>
+
+        </div>
+
+    </main>
+
+    <footer>
+        <!-- Footer -->
+        <footer class="bg-dark text-center text-white">
+            <!-- Grid container -->
+            <div class="container p-4">
+
+
+                <!-- Copyright -->
+                <div class="text-center p-3" style="background-color: black;">
+                    © 2023 Copyright: GrupoSeis
+                    <a class="text-white" href="imagenes/GRUPO6.pdf" target="_blank">gruposeis.com</a>
+                </div>
+        </footer>
+        <!-- Footer -->
+</body>
+<script src="./dist/js/bootstrap.bundle.min.js"></script>
+
+</html>

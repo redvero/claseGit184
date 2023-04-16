@@ -1,11 +1,281 @@
 <!DOCTYPE html>
-<html lang=”es”>
+<html lang="es">
+
 <head>
-    <meta charset=”UTF-8″ />
-    <title>Git/ Github 184</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!--aca abajo van los METADATOS (meta) son para posicionamiento web basicamente-->
+  <meta name="description" content="Venta de Instrumentos musicales">
+  <!--esto es la descripción de nuestra web-->
+  <meta name="keywords"
+    content="Guitarra eléctrica, guitarra acústica, bajo, batería, micrófono, amplificador, casa de música, equipo de sonido">
+  <!--esto significa añadir palabras claves para los buscadores-->
+  <meta name="author" content="Megathlon">
+  <!--el nombre de la empresa-->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+  <link rel="stylesheet" href="./dist/css/bootstrap.css">
+  <link rel="stylesheet" href="styles.css">
+
+  <title>Megathlon Rock House / Venta de instrumentos musicales</title>
+  <!--aca abajo está el favicon del sitio-->
+  <link rel="icon" href="./imagenes/favicon.png" type="image/png" sizes="512-FAV">
+
 </head>
-<body> 
-    <h1>Hola Mundo de Github!</h1>
-    <h2>Hola Mundo H2!</h2>
+
+<body>
+  <header>
+
+
+    <!--ACA ESTA EL INICIO DE LA BARRA DE NAVEGACION O MENU DE LA WEB-->
+    <nav class="navbar navbar-expand-lg">
+      <div class="container-fluid">
+        <!--en esta linea abajo se cambió el icono. No es de IconScout, es propio!-->
+        <a class="navbar-brand" href="#"><img src="./imagenes/favicon logo menu.png" alt="Megathlon">
+          <a class="logo" href="#"> <img src="./imagenes/megathlon2 logo.png"
+              style="max-width: 80%; padding: 20px;"></a>
+
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+            aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <!--aca se usa flex-box-->
+            <ul class="navbar-nav d-flex justify-content-center align-items-center">
+              <li class="nav-item">
+                <a class="nav-link" href="index.html">Inicio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#footer">Sucursales</a>
+              </li>
+
+              <li class="nav-item dropdown" data-bs-theme="dark">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                  data-bs-toggle="dropdown" aria-expanded="true">
+                  Productos
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="#">Guitarras y bajos</a></li>
+                  <li><a class="dropdown-item" href="#">Baterías y percusión</a></li>
+                  <li><a class="dropdown-item" href="#">Teclados y pianos</a></li>
+                  <li><a class="dropdown-item" href="#">Amplificadores</a></li>
+
+              </li>
+
+            </ul>
+
+            <li class="nav-item">
+              <button class="nav-link active"><a class="contacto" href="./contacto.html">Contacto</button>
+        </a>
+        </li>
+        </ul>
+
+        <form class="d-flex" role="search">
+          <input class="form-control me-2" type="search" placeholder="Buscá tu instrumento" aria-label="Buscar">
+          <button class="btn btn-secondary" type="submit">Buscar</button>
+        </form>
+      </div>
+      </div>
+    </nav>
+    </nav>
+    <!--link a IconScout-->
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css">
+
+    <!--ACA TERMINA EL MENU DE LA WEB-->
+  </header>
+
+
+  <main>
+    <br>
+    <div class="banner" style="text-align: center;">
+      <a href="https://www.fender.com/on/demandware.store/Sites-Fender-INTL-Site/es/Search-Show?q=american%20ultra%20series"
+        target="_blank"><img class src="./imagenes/banner promo.jpg" alt="promocion fender"></a>
+    </div>
+
+    <br>
+    <br>
+    <!--carrousel-->
+
+    <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <div class="item imgnormalizada active">
+            <img src="./imagenes/jam.jpg" class="d-block w-100" alt="Guitarras en exhibición">
+            <div class="carousel-caption">
+              <h1 class="Texto en carrousel">Guitarras en exhibición </h1>
+              <p class="parrafos carrousel">Visítanos y encuentra la guitarra de tus sueños</p>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="item imgnormalizada">
+            <img src="./imagenes/microfonos.jpg" class="d-block w-100" alt="promo 50 off microfonos">
+            <div class="carousel-caption">
+              <h1 class="Texto en carrousel">Micrófonos en oferta!!</h1>
+              <p class="parrafos carrousel">50% off con todos los medios de pago</p>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="item imgnormalizada">
+            <img src="./imagenes/sala de grabacion.jpg" class="d-block w-100" alt="sala de grabacion">
+            <div class="carousel-caption">
+              <h1>Probá tu instrumento</h1>
+              <p class="parrafos carrousel">En nuestra sala de sonido profesional</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying"
+        data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying"
+        data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+    <br><br><br><br>
+
+
+    <!--fin de carousel-->
+    <div>
+
+    </div>
+
+
+
+    <div class="article">
+      <h2>Estuvimos participando en la Feria de la Música</h2>
+      <div class="feria img">
+        <img src="./imagenes/feria.jpg" alt="Feria de la Música">
+      </div>
+      <p> La Feria comenzará el viernes 9 de septiembre con una jornada exclusiva para profesionales y los días 10 y 11
+        de septiembre la feria abrirá sus puertas al público general. Más de 150 marcas nacionales e internacionales en
+        2 días para toda la familia. 10 bandas y solistas en vivo, contenidos, áreas de experiencia y actividades
+        educativas para el público general.</p>
+    </div>
+
+    <div class="article">
+      <h2>Clase magistral de teclado</h2>
+      <br>
+      <p>Hugo Adrián Bistolfi, histórico tecladista de Rata Blanca por más de 15 años y creador de Alianza, dará una
+        serie de clases en nuestra sede de Belgrano. Anotate y participá! </p>
+      <br>
+      <img src="./imagenes/tecladista.jpg" alt="Tecladista">
+    </div>
+
+    <div class="article">
+      <h2>Nueva consola Yamaha MG12XU</h2>
+
+      <p>La Consola Mezcladora Multiusos de 12 canales con interfaz de audio USB es un mezclador analógico que cuenta
+        con alimentación phantom conmutable y preamplificadores de micrófono profesional, el modelo XU de la MG12 ofrece
+        una multiplicidad de prestaciones respecto a su hardware. </p>
+      <img src="./imagenes/Consola Yamaha.jpg" alt="Consola Yamaha">
+    </div>
+
+
+    <div class="container">
+      <div class="row">
+        <li class="tira de instrumentos">
+          <a href="https://www.fender.com/"><img src="./imagenes/fender.png" alt="fender logo"></a>
+          <a href="https://www.ibanez.com/"><img src="./imagenes/Ibanez.png" alt="Ibanez logo"></a>
+          <a href="https://www.jbl.com/"><img src="./imagenes/JBL.png" alt="JBL"></a>
+          <a href="https://www.korg.com/"><img src="./imagenes/korg.png" alt="korg logo"></a>
+          <a href="https://www.roland.com/"><img src="./imagenes/roland.png" alt="roland logo"></a>
+          <a href="https://www.tama.com/"><img src="./imagenes/tama.png" alt="tama logo"></a>
+          <a href="https://www.pearldrum.com/"><img src="./imagenes/pearl.png" alt="pearl logo"></a>
+        </li>
+      </div>
+    </div>
+
+
+
+  </main>
+
+  <footer>
+    <!-- Footer -->
+    <footer class="bg-dark text-center text-white" id="footer">
+      <!-- Grid container -->
+      <div class="container p-4">
+
+        <!-- Section: Links -->
+        <section class="Nosotros">
+          <!--Grid row-->
+          <div class="row">
+
+            <div class="col-lg-4 col-md-6 mb-4 mb-md-0">
+              <a class="navbar-brand" href="#"><img src="./imagenes/favicon logo menu.png" alt="Megathlon">
+                <h5 class="text-uppercase">Sucursal C. Central</h5>
+                <ul class="list-unstyled mb-0">
+                  <li>
+                    <a> 0351/4857986</a>
+                  </li>
+                  <li>
+                    <a>Rivadavia 785 / Córdoba</a>
+                  </li>
+                  <li>
+                    <a href="mailto:" class="text-white">infoCCENTRAL@megathlon.com</a>
+                  </li>
+                </ul>
+            </div>
+
+            <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+              <a class="navbar-brand" href="#"><img src="./imagenes/favicon logo menu.png" alt="Megathlon">
+                <h5 class="text-uppercase">Sucursal Olmos</h5>
+                <ul class="list-unstyled mb-0">
+                  <li>
+                    <a> 0351/4783654</a>
+                  </li>
+                  <li>
+                    <a>Paraná 1245 / Córdoba</a>
+                  </li>
+                  <li>
+                    <a href="mailto:" class="text-white">infoCOLMOS@megathlon.com</a>
+                  </li>
+                </ul>
+            </div>
+
+            <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+              <a class="navbar-brand" href="#"><img src="./imagenes/favicon logo menu.png" alt="Megathlon">
+                <h5 class="text-uppercase">Nuestras Redes</h5>
+                <table>
+                  <tr>
+                    <td><a href="https://es-la.facebook.com/"> <img src=".imagenes/FB.jpg"
+                          style="max-width: 100%; padding: 5px;" alt="Facebook"></a></td>
+                    <td><a href="https://www.instagram.com/"> <img src=".imagenes/IG.jpg"
+                          style="max-width: 100%; padding: 5px;" alt="Instagram"></a></td>
+                    <td><a href="https://www.whatsapp.com/?lang=es"> <img src=".imagenes/WP.jpg"
+                          style="max-width: 100%; padding: 5px;" alt="Whatsapp"></a></td>
+                  </tr>
+                </table>
+            </div>
+
+          </div>
+
+
+      </div>
+      <!--Grid row-->
+      </section>
+      <!-- Section: Links -->
+      </div>
+      <!-- Grid container -->
+
+      <!-- Copyright -->
+      <div class="text-center p-3" style="background-color: black;">
+        © 2023 Copyright: GrupoSeis
+        <a class="text-white" href="imagenes/GRUPO6.pdf" target="_blank">gruposeis.com</a>
+      </div>
+    </footer>
+    <!-- Footer -->
 </body>
+<script src="./dist/js/bootstrap.bundle.min.js"></script>
+
 </html>
