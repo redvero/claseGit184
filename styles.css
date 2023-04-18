@@ -1,9 +1,11 @@
+
 @import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Comfortaa:wght@300&display=swap');
 
 
-* {
-    margin: 0;
-    padding: 0;
+*{
+    margin:0;
+    padding:0;
     box-sizing: border-box;
     font-family: 'Comfortaa', cursive;
 }
@@ -11,40 +13,27 @@
 
 body {
     background-image: url(./imagenes/musico-tocando.jpg);
-    background-repeat: repeat;
+    background-repeat:repeat;
     background-position: center;
-    height: auto;
+    height:auto;
     background-attachment: fixed;
     background-size: cover;
 }
 
-.poster {
-    padding-left: 40px;
-    margin-bottom: 260px;
-    border-radius: 10px;
-
-
-
-}
-
-.equipo {
-    color: #e9ecef;
-
-}
 
 .logo {
-
+     
     justify-content: center;
-    margin: 20px;
-
-
+     margin: 20px;
+     
+    
 }
 
 
 .navbar {
-    padding: 2rem;
-    background-color: transparent;
-
+    padding: 20px;
+    background-color:black;
+    
 }
 
 .nav-link {
@@ -53,33 +42,31 @@ body {
     color: white;
     justify-content: center;
 }
-
 .dropdown-menu {
     font-family: 'Comfortaa', cursive;
     font-size: 17px;
     color: white;
     background-color: transparent;
     border-color: transparent;
-
-}
-
+       
+      }
+  
 
 .collapse-navbar-collapse {
     font-family: 'Comfortaa', cursive;
     font-size: 17px;
     color: white;
 }
-
 .navbar-toggler {
-    color: white;
-
-
+    color:white;
+    
+    
 }
 
 .navbar-collapse {
     align-items: center;
-    justify-content: space-between;
-
+    justify-content:space-between;
+    
 }
 
 .nav-link.active {
@@ -87,29 +74,25 @@ body {
     background-color: transparent;
 
 }
-
 .contacto {
-    color: white;
-    font-size: 17px;
-    text-align: center;
-    text-decoration: none;
+      color:white;
+      font-size: 17px;
+      text-align: center; 
+      text-decoration: none;  
 }
 
-.contacto:hover {
-    color: orangered
+.contacto:hover{
+    color:orangered
 }
-
 .btn {
-    background-color: orangered;
+    background-color:orangered;
     color: white;
     border-color: transparent;
 }
-
 .btn:hover {
     background-color: black;
 }
-
-.d-block-w-100 {
+.d-block-w-100{
     font-family: 'Comfortaa', cursive;
     color: orangered;
 }
@@ -118,93 +101,182 @@ body {
 .fender {
 
     background-image: url(./imagenes/musico-tocando.jpg);
-    background-repeat: repeat;
-    background-position: center;
+    background-repeat:repeat;
+    background-position: center; 
     height: 1200px;
     background-attachment: fixed;
-    background-size: cover
+    background-size:cover
 }
-
 .imgnormalizada img {
     width: auto;
     height: 500px;
     max-height: 500px;
     border-radius: 20px;
 }
+h1 {
+    font-family: 'Alfa Slab One', cursive;
+    padding: 15px;
+    color: white;
+    font-style: normal;
+    background-color:  orangered;
+    
+    
+    
+    
+    
+}
+h1.divisor {
+    padding: auto;
+    text-align: center;
+}
+
+
 
 .carousel-inner {
     font-family: 'Comfortaa', cursive;
     font-size: 25px;
 }
-
 .encabezados {
     font-family: 'Comfortaa', cursive;
-
+    
 }
-
 .article {
     display: inline-block;
+    text-align: center;
     width: 33%;
-    vertical-align: top;
+    vertical-align: auto;
     padding: 20px;
-    box-sizing: border-box;
+    box-sizing:border-box;
     color: white;
+    background-color: rgba(0, 0, 0, 0.8); 
+    border-radius: 10px;
+    border-color: orangered;
+   
+    
+}
+p {
+    font-size: 14px;
+    align-items: center;
+    padding-left: 0px;
+    padding-right: 0px;
+    margin: 20px;
+}
+h2 {
+    font-family: 'Alfa Slab One', cursive;
+    font-size: 30px;
+    padding-left: 15px;
+    color:white;
+    }
+.precio {
+    font-family: 'Alfa Slab One', cursive;
+    font-size: 30px;
+    color: orangered;
+}
+.comprar {
+    padding: 10px;
+    background-color:green;
+    color: white;
+    border-radius: 10px;
+}
+.comprar:hover{
+    background-color:greenyellow;
+    color: black;
+
+}
+.VerMas {
+    padding: 10px;
+    background-color: orangered;
+    color: white;
+    border-radius: 10px;
+    }
+.VerMas:hover {
+    background-color:green;
+    color: white;
+
 }
 
-
-
+  
 .article img {
     width: 100%;
-
-}
-
+    border-radius: 10px;
+    
+  }
 .feria img {
     height: auto;
     justify-content: center;
-}
+  }
 
 .articulos {
     padding: 20px;
-    background-color: black;
-    opacity: 30%;
+    background-color: transparent;
+    opacity:30%;
     margin-top: 30px;
     margin-bottom: 30px;
     display: flex;
     justify-content: center;
     align-items: center;
 
-}
-
+} 
 .tira.de.instrumentos img:hover {
     opacity: 0.5;
-
+    
 }
+
+
+
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid orangered;
+    border-radius: 10px; 
+    box-sizing: border-box; 
+    margin-top: 6px; 
+    margin-bottom: 16px; 
+    resize: vertical 
+  }
+  
+  input[type=enviar] {
+    background-color: orangered;
+    color: white;
+    text-align: center;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+  }
+  
+  /* cambia el color cuando se pasa el cursor sobre el boton */
+  input[type=enviar]:hover {
+    background-color:black;
+  }
+
+  /* fondo del formulario */
+  .container {
+    border-radius: 10px;
+    background-color:transparent;
+    padding: 20px;
+  }
 
 
 .copyright {
-    font-family: 'Comfortaa', cursive;
+    font-family: 'Comfortaa', cursive; 
     color: white;
-    margin-block: 20px;
+    margin-block: 20px; 
     margin-left: 40px;
     font-size: 10pt;
 
 }
-
 .logo {
     margin-top: 40px;
     margin-left: 30px;
 }
-
 .logo-footer {
-    margin-block: 10px;
-    margin-left: 40px;
+    margin-block: 10px; 
+    margin-left: 40px; 
 
 }
 
-.redes-sociales {
-    margin-block: 20px;
-    margin-left: 1100px;
-}
+
 
 img {
     padding-left: 10px;
@@ -212,16 +284,25 @@ img {
 
 }
 
-.navbar-nav .nav-link.active,
-.navbar-nav .nav-link.show {
+.navbar-nav .nav-link.active, .navbar-nav .nav-link.show {
     color: white;
 
 }
 
 .nav-link:hover {
-    color: orangered;
+    color:orangered;
+}
+.row{
+    text-align: left;
 }
 
-.contacto-back {
-    color: orangered;
+
+.p-4{
+    align-items: center;
 }
+
+
+
+
+
+  

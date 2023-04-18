@@ -92,6 +92,7 @@
         <!--ACA TERMINA EL MENU DE LA WEB-->
     </header>
 
+    <br>
 
     <main>
 
@@ -121,7 +122,7 @@
                             <div class="form-check">
                                 <input class="form-check-input" type="checkbox" value="" id="invalidCheck" required>
                                 <label class="form-check-label" for="invalidCheck">
-                                    Quiero suscribirme al Nesletter.
+                                    Quiero suscribirme al Newsletter.
                                 </label>
                                 <div class="invalid-feedback">
                                     Debe aceptar antes de solicitar.
@@ -232,6 +233,8 @@
 
     </main>
 
+    <br>
+
     <footer>
         <!-- Footer -->
         <footer class="bg-dark text-center text-white" id="footer">
@@ -243,7 +246,33 @@
                     <!--Grid row-->
                     <div class="row">
 
-                        <div class="col-lg-4 col-md-6 mb-4 mb-md-0">
+                        <div class="col-lg-3 col-md-6 mb-0 mb-md-2">
+                            <a class="navbar-brand" href="#"><img src="./imagenes/favicon logo menu.png"
+                                    alt="Megathlon">
+                                <h5 class="text-uppercase">Links útiles</h5>
+                                <ul class="list-unstyled mb-0">
+                                    <li>
+                                        <a href="#!" class="text-white"> <span onclick="nosotros()">Nosotros </a>
+                                        </span>
+                                    </li>
+                                    <li>
+                                        <a href="#!" class="text-white"> <span onclick="atencion()">Atención al
+                                                Cliente</a>
+                                        </span>
+                                    </li>
+                                    <li>
+                                        <a href="#!" class="text-white"> <span onclick="tecnico()">Servicio Técnico</a>
+                                        </span>
+                                    </li>
+                                    <li>
+                                        <a href="#!" class="text-white"> <span onclick="privacidad()"> Politica de
+                                                Privacidad</a>
+                                        </span>
+                                    </li>
+                                </ul>
+                        </div>
+
+                        <div class="col-lg-3 col-md-6 mb-0 mb-md-2">
                             <a class="navbar-brand" href="#"><img src="./imagenes/favicon logo menu.png"
                                     alt="Megathlon">
                                 <h5 class="text-uppercase">Sucursal C. Central</h5>
@@ -260,7 +289,7 @@
                                 </ul>
                         </div>
 
-                        <div class="col-lg-4 col-md-6 mb-4 mb-md-0">
+                        <div class="col-lg-3 col-md-6 mb-0 mb-md-2">
                             <a class="navbar-brand" href="#"><img src="./imagenes/favicon logo menu.png"
                                     alt="Megathlon">
                                 <h5 class="text-uppercase">Sucursal Olmos</h5>
@@ -277,17 +306,17 @@
                                 </ul>
                         </div>
 
-                        <div class="col-lg-4 col-md-6 mb-4 mb-md-0">
+                        <div class="col-lg-3 col-md-6 mb-0 mb-md-2">
                             <a class="navbar-brand" href="#"><img src="./imagenes/favicon logo menu.png"
                                     alt="Megathlon">
                                 <h5 class="text-uppercase">Nuestras Redes</h5>
                                 <li style="list-style: none;">
-                                    <a href="https://es-la.facebook.com/"><img src="./imagenes/FK.jpg"
-                                            style="max-width: 15%;" alt="Facebook"></a>
-                                    <a href="https://www.instagram.com/"><img src="./imagenes/IG.jpg"
-                                            style="max-width: 15%;" alt="Instagram"></a>
-                                    <a href="https://www.whatsapp.com/?lang=es"><img src="./imagenes/WP.jpg"
-                                            style="max-width: 15%;" alt="Whatsapp"></a>
+                                    <a href="https://es-la.facebook.com/"><img src="./imagenes/facebook.png"
+                                            style="max-width: 18%;" alt="Facebook"></a>
+                                    <a href="https://www.instagram.com/"><img src="./imagenes/instagram.png"
+                                            style="max-width: 20%;" alt="Instagram"></a>
+                                    <a href="https://www.whatsapp.com/?lang=es"><img src="./imagenes/whatsapp.png"
+                                            style="max-width: 23%;" alt="Whatsapp"></a>
                                 </li>
                         </div>
 
@@ -309,6 +338,9 @@
         </footer>
         <!-- Footer -->
 </body>
+
 <script src="./dist/js/bootstrap.bundle.min.js"></script>
+<script src="scripts.js"></script>
+<script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
 
 </html>
